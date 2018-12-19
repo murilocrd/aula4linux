@@ -1,0 +1,962 @@
+    1  clear
+    2  apt install ansible -y 
+    3  apt update
+    4  apt install ansible -y 
+    5  apt install python-pip -y
+    6  apt install ansible -y 
+    7  cd /etc/ansible/
+    8  ls-ltr
+    9  ls -ltr
+   10  vi ansible.cfg
+   11  ls -ltr
+   12  clear
+   13  vi hosts 
+   14  vim hosts
+   15  ls -ltr
+   16  >hosts
+   17  ls -ltr
+   18  s -ltr
+   19  ls -lrt
+   20  vi hosts
+   21  pip install ansible
+   22  pip upgrade
+   23  pip install ansible --upgrade
+   24  pip install ansible --upgrade pip
+   25  ansible --version
+   26  ansible -version
+   27  ansible --version
+   28  history
+   29  clear
+   30  cd /etc/ansible/
+   31  ls -ltr
+   32  clear
+   33  ls -ltr
+   34  vi ansible.cfg 
+   35  clear
+   36  vi ansible.cfg 
+   37  vi hosts
+   38  ansible 'localhost,' -e 'ansible_connection=local' -m ping
+   39  ls -ltr
+   40  exit
+   41  ls -ltr
+   42  clear
+   43  ansible all -m ping
+   44  ssh root@192.168.99.10
+   45  cd 
+   46  cd /etc/ansible/
+   47  ls -ltr
+   48  vi ansible.cfg
+   49  ansible all -m ping
+   50  history
+   51  ansible all -m ping
+   52  ansible -i hosts doker -m ping
+   53  ansible all -m ping
+   54  ansible all -m command -a 'free -h'
+   55  ansible all -m command -a 'date'
+   56  clear
+   57  vi batman.yml
+   58  ansible-playbook batman.yml
+   59  SL
+   60  sl
+   61  cd /etc/ansible/
+   62  ls -ltr
+   63  clear
+   64  ls -ltr
+   65  vi batman.yml
+   66  vi hosts
+   67  vi batman.yml
+   68  ansible-playbook batman.yml
+   69  vi batman.yml
+   70  ansible-playbook batman.yml
+   71  ls -ltr
+   72  >robin
+   73  ansible-playbook batman.yml
+   74  ls -ltr
+   75  rm -rf ]
+   76  ls -ltr
+   77  cd /tmp
+   78  ls -ltr
+   79  cd -
+   80  ls -ltr
+   81  vi batman.yml
+   82  ansible-playbook batman.yml
+   83  ls -ltr
+   84  ansible-playbook batman.yml
+   85  vi batman.yml
+   86  ansible-playbook batman.yml
+   87  vi batman.yml
+   88  clear
+   89  ansible-playbook batman.yml
+   90  vi batman.yml
+   91  ansible-playbook batman.yml
+   92  vi batman.yml
+   93  ansible-playbook batman.yml
+   94  vi batman.yml
+   95  ansible-playbook batman.yml
+   96  vi batman.yml
+   97  ansible-playbook batman.yml
+   98  vi batman.yml
+   99  ansible-playbook batman.yml
+  100  cowsay -f 
+  101  ss -lntp
+  102  cowsay -f "Hello"
+  103  ps -ef |grep ngnix
+  104  sl
+  105  cat /etc/profile
+  106  :q!
+  107  ls -ltr
+  108  cd /etc/ansible/
+  109  ls -ltr
+  110  vi batman.yml
+  111  cowsay "gf"
+  112  sl
+  113  ls -ltr
+  114  vi batman.yml
+  115  ls -ltr
+  116  vi ansible.cfg
+  117  ls -ltr
+  118  date
+  119  vi ansible.cfg
+  120  ansible-playbook batman.yml
+  121  vi batman.yml
+  122  ls -ltr
+  123  vi batman.retry
+  124  ls -lt
+  125  vi batman.yml
+  126  vi hosts
+  127  vi batman.yml
+  128  ansible-playbook -e 'username=devops' batman.yml
+  129  vi batman.yml
+  130  ansible-playbook -e 'username=devops' batman.yml
+  131  vi batman.yml
+  132  ansible-playbook -e 'username=devops' batman.yml
+  133  vi batman.yml
+  134  ansible-playbook -e 'username=devops' batman.yml
+  135  cat /etc/hosts
+  136  vi batman.yml
+  137  ansible-playbook -e 'username=devops' batman.yml
+  138  cat /etc/passwd
+  139  vi batman.yml
+  140  ansible-playbook -e 'username=devops' batman.yml q!
+  141  ansible-playbook batman.yml
+  142  cat /etc/passwd
+  143  cd /etc/ansible/
+  144  ls -ltr
+  145  vi desafio.yml
+  146  vi batman.yml
+  147  vi desafio.yml
+  148  ansible-playbook desafio.yml
+  149  cd /etc/ansible/
+  150  ls -ltr
+  151  vi batman.y
+  152  cat batman.yml
+  153  ls -ltr
+  154  vi desafio.yml
+  155  vi batman.yml
+  156  vi desafio.yml
+  157  vi batman.yml
+  158  vi desafio.yml
+  159  history
+  160  ansible-playbook desafio.yml
+  161  vi desafio.yml
+  162  ansible-playbook desafio.yml
+  163  vi desafio.yml
+  164  ansible-playbook desafio.yml
+  165  vi desafio.yml
+  166  ansible-playbook desafio.yml
+  167  vi desafio.yml
+  168  ls
+  169  cd var/www/html
+  170  cd /var/www/html/
+  171  mkdir index.php
+  172  ls -ltr
+  173  rm -rf index.php/
+  174  vi index.php
+  175  cd -
+  176  ls -ltr
+  177  vi desafio.yml
+  178  cd -
+  179  ls -ltr
+  180  rm -rf index.php
+  181  cd -
+  182  ls -ltr
+  183  vi index.php
+  184  vi desafio.yml
+  185  ls -ltr
+  186  ansible-playbook desafio.yml
+  187  vi desafio.yml
+  188  ansible-playbook desafio.yml
+  189  vi desafio.yml
+  190  ansible-playbook desafio.yml
+  191  vi desafio.yml
+  192  ansible-playbook desafio.yml
+  193  vi desafio.yml
+  194  ansible-playbook desafio.yml
+  195  vi desafio.yml
+  196  ansible-playbook desafio.yml
+  197  vi desafio.yml
+  198  ansible-playbook desafio.yml
+  199  vi desafio.yml
+  200  ansible-playbook desafio.yml
+  201  cat desafio.yml
+  202  cd /var/www/html/
+  203  ls -ltr
+  204  vi index.php
+  205  cd -
+  206  ls -ltr
+  207  vi desafio_professor.yml
+  208  cat desafio_professor.yml
+  209  ls -ltr
+  210  hisotry
+  211  history
+  212  ansible-playbook desafio_professor.yml
+  213  vi desafio_professor.yml
+  214  ansible-playbook desafio_professor.yml
+  215  vi desafio_professor.yml
+  216  ansible-playbook desafio_professor.yml
+  217  vi desafio_professor.yml
+  218  ansible-playbook desafio_professor.yml
+  219  vi desafio_professor.yml
+  220  ansible-playbook desafio_professor.yml
+  221  vi desafio_professor.yml
+  222  ansible-playbook desafio_professor.yml
+  223  vi desafio_professor.yml
+  224  ansible-playbook desafio_professor.yml
+  225  vi desafio_professor.yml
+  226  ansible-playbook desafio_professor.yml
+  227  vi desafio_professor.yml
+  228  ansible-playbook desafio_professor.yml
+  229  vi desafio_professor.yml
+  230  ansible-playbook desafio_professor.yml
+  231  vi desafio_professor.yml
+  232  ansible-playbook desafio_professor.yml
+  233  vi desafio_professor.yml
+  234  ansible-playbook desafio_professor.yml
+  235  vi desafio_professor.yml
+  236  ansible-playbook desafio_professor.yml
+  237  mkdir roles
+  238  ls -ltr
+  239  cd roles
+  240  ls -ltr
+  241  cd ..
+  242  vi ansible.cfg
+  243  cd roles
+  244  ls -ltr
+  245  clear
+  246  ansible-galaxy init asa_noturna
+  247  l -ltr
+  248  cd asa_noturna/
+  249  ls -ltr
+  250  cd tasks
+  251  ls -ltr
+  252  vi main.yml
+  253  ls -ltr
+  254  vi main.yml
+  255  vi prerequisitos.yml
+  256  ls -ltr
+  257  vi prerequisitos.yml
+  258  mv prerequisitos.yml prereqDebian.yml
+  259  ls -ltr
+  260  vi prereqRedHat.yml
+  261  ls -ltr
+  262  vi prereqDebian.yml
+  263  vi prereqRedHat.yml
+  264  vi install_nginx.yml
+  265  vi deploy.yml
+  266  cd ..
+  267  cd tasks/
+  268  cd ..
+  269  cd templates/
+  270  vi index.html
+  271  cd ..
+  272  cd tasks/
+  273  vi deploy.yml
+  274  cd ..
+  275  cd templates/
+  276  vi index.html
+  277  cd ..
+  278  cd tasks/
+  279  ls -ltr
+  280  vi main.yml
+  281  ls -ltr
+  282  ansible-playbook main.yml
+  283  vi prereqDebian.yml
+  284  ansible-playbook main.yml
+  285  vi prereqDebian.yml
+  286  ansible-playbook main.yml
+  287  vi prereqDebian.yml
+  288  ansible-playbook main.yml
+  289  vi prereqDebian.yml
+  290  ansible-playbook main.yml
+  291  vi prereqRedHat.yml
+  292  vi prereqDebian.yml
+  293  ansible-playbook main.yml
+  294  vi prereqDebian.yml
+  295  ansible-playbook main.yml
+  296  vi prereqRedHat.yml
+  297  vi prereqDebian.yml
+  298  ansible-playbook main.yml
+  299  vi prereqRedHat.yml
+  300  cat main.yml
+  301  vi prereqDebian.yml
+  302  ansible-playbook main.yml
+  303  vi prereqRedHat.yml
+  304  vi main.yml
+  305  ansible-playbook main.yml
+  306  vi prereqRedHat.yml
+  307  ansible-playbook main.yml
+  308  vi deploy.yml
+  309  ansible-playbook main.yml
+  310  ls -ltr
+  311  vi install_nginx.yml
+  312  ansible-playbook main.yml
+  313  vi install_nginx.yml
+  314  ansible-playbook main.yml
+  315  cd ..
+  316  ls -ltr
+  317  cd ..
+  318  ls -ltr
+  319  cd roles
+  320  ls -ltr
+  321  cd asa_noturna
+  322  ls -ltr
+  323  cd tasks
+  324  ls -ltr
+  325  vi main.yml
+  326  vi prereqDebian.yml
+  327  vi prereqRedHat.yml
+  328  vi prerequisitos.yml
+  329  vi install_nginx.yml
+  330  ls -ltr
+  331  vi prerequisitos.yml
+  332  vi install_ubuntu.yml
+  333  cd ..
+  334  ls -ltr
+  335  ansible-galaxy puppet
+  336  ansible-galaxy init puppet
+  337  ls -ltr
+  338  cd puppet
+  339  ls -ltr
+  340  cd tasks
+  341  ls -ltr
+  342  vi prerequisitos.yml
+  343  cd /etc/ansible/
+  344  ls -ltr
+  345  clear
+  346  ls -ltr
+  347  cd roles
+  348  ls -ltr
+  349  cd asa
+  350  cd asa_noturna/
+  351  ls -ltr
+  352  cd tasks/
+  353  ls -lt
+  354  cd ..
+  355  cd tasks/
+  356  ls -ltr
+  357  vi main.yml 
+  358  ls -ltr
+  359  vi deploy.yml
+  360  cd ..
+  361  ls -ltr
+  362  cd puppet/
+  363  ls -ltr
+  364  cd tasks/
+  365  çs =çtr
+  366  ls -ltr
+  367  clear
+  368  vi install_ubuntu
+  369  vi install_ubuntu.yml
+  370  vi install_centos.yml
+  371  vi prereq.yml
+  372  vi install_centos.yml
+  373  vi install_ubuntu.yml
+  374  cd ..
+  375  cd asa_noturna/
+  376  ls -ltr
+  377  cd tasks/
+  378  ls -ltr
+  379  vi main.yml 
+  380  cd ..
+  381  cd puppet//tasks/
+  382  ls -ltr
+  383  vi main.yml
+  384  ls -ltr
+  385  vi main.yml
+  386  ansible-playbook main.yml
+  387  cd ..
+  388  vagrant reload devops
+  389  cd /etc/ansible/roles/puppet/tasks
+  390  ls -ltr
+  391  ansible-playbook main.yml
+  392  ls -ltr
+  393  vi prereq.yml
+  394  cd ..
+  395  mkdir centos
+  396  cd roles/
+  397  cd puppet/
+  398  ls -ltr
+  399  cd tasks/
+  400  ansible-playbook main.yml
+  401  ls -ltr
+  402  vi prereq.yml
+  403  vi install_ubuntu.yml
+  404  vi install_centos.yml
+  405  ansible-playbook main.yml
+  406  vi install_centos.yml
+  407  ansible-playbook main.yml
+  408  vi install_centos.yml
+  409  vi main.yml
+  410  ansible-playbook main.yml
+  411  vi main.yml
+  412  ansible-playbook main.yml
+  413  vi main.yml
+  414  ansible-playbook main.yml
+  415  vi main.yml
+  416  ansible-playbook main.yml
+  417  vi main.yml
+  418  ansible-playbook main.yml
+  419  vi main.yml
+  420  ansible-playbook main.yml
+  421  vi main.yml
+  422  ansible-playbook main.yml
+  423  vi main.yml
+  424  ansible-playbook main.yml
+  425  vi main.yml
+  426  ansible-playbook main.yml
+  427  vi install_centos.yml
+  428  ansible-playbook main.yml
+  429  puppet --version
+  430  clear
+  431  puppet resource package ccze 
+  432  puppet resource package ccze ensure=present
+  433  cd /etc/ansible/roles/
+  434  ls -ltr
+  435  cd puppet/
+  436  ls -ltr
+  437  cd tasks/
+  438  ls -ltr
+  439  vi prereq.yml
+  440  vi install_ubuntu.yml
+  441  vi install_centos.yml
+  442  vi main.yml
+  443  ls -ltr
+  444  cd ..
+  445  ls -ltr
+  446  cd ..
+  447  cd 
+  448  puppet resource user root
+  449  clear
+  450  puppet souce user aquaman ensure=present shell=/bin/bash managehome=true
+  451  puppet resouce user aquaman ensure=present shell=/bin/bash managehome=true
+  452  puppet resource user aquaman ensure=present shell=/bin/bash managehome=true
+  453  puppet resource user root
+  454  puppet resource user aquaman
+  455  puppet resource service nginx
+  456  puppet resource service nginx enable=flase
+  457  puppet resource service nginx enable=false
+  458  puppet resource service nginx enable=true
+  459  puppet resource service cron
+  460  puppet resource service cron ensure=stoppped
+  461  puppet resource service cron ensure=stopped
+  462  puppet resource service cron ensure=running
+  463  clear
+  464  puppet resource package puppetserver ensure=present
+  465  puppet resource package puppetserver
+  466  facter
+  467  ls -ltr
+  468  vi arthur_cury.pp
+  469  puppet apply arthur_cury.pp
+  470  vi arthur_cury.pp
+  471  puppet apply arthur_cury.pp
+  472  vi arthur_cury.pp
+  473  puppet apply arthur_cury.pp
+  474  vi arthur_cury.pp
+  475  puppet apply arthur_cury.pp
+  476  vi arthur_cury.pp
+  477  cd /etc/puppetlabs/ 
+  478  ls -ltr
+  479  clear
+  480  ls -ltr
+  481  cat puppet
+  482  cd puppet
+  483  ls -ltr
+  484  vi puppet.conf
+  485  ls -ltr
+  486  cd ..
+  487  ls -ltr
+  488  cd puppetserver/
+  489  ls -ltr
+  490  cd conf.d/
+  491  ls -ltr
+  492  cd ..
+  493  ls -ltr
+  494  cd services.d/
+  495  ls -ltr
+  496  cd ..
+  497  ls -ltr
+  498  cd ..
+  499  l s-ltr
+  500  cd code/
+  501  ls -ltr
+  502  ls environments/
+  503  cd environments/
+  504  ls -ltr
+  505  cd production/
+  506  ls -ltr
+  507  cd..
+  508  cd modules/
+  509  ls -ltr
+  510  cd ..
+  511  l s-ltr
+  512  cd ..
+  513  cd modules/
+  514  ls -ltr
+  515  puppet resource package pdk ensure=present
+  516  ls -ltr
+  517  pdk new module base
+  518  ls -ltr
+  519  cd base
+  520  ls -ltr
+  521  puppet resource service puppetserver ansure=running
+  522  puppet resource service puppetserver ensure=running
+  523  netstat -an |grep 8140
+  524  clear
+  525  puppetserver ca list
+  526  netstat -an |grep 8140
+  527  puppetserver ca list
+  528  vi /cat/hosts
+  529  ls -ltr
+  530  puppetserver ca list
+  531  puppetserver ca list hostname
+  532  puppetserver ca list --hostname
+  533  cat /etc/hosts
+  534  puppetserver ca list --hostname
+  535  puppetserver ca list --localhosts
+  536  puppetserver ca list --localhost
+  537  puppetserver ca list
+  538  ss -lntp
+  539  puppetserver ca list
+  540  free -g
+  541  free -m
+  542  cd ..
+  543  cd puppet/cache
+  544  ls -ltr
+  545  cd puppet
+  546  ls -ltr
+  547  cd /opt/puppetlabs/puppet/cache/
+  548  ls -ltr
+  549  puppetserver ca list
+  550  ss -lntp
+  551  puppet agent -t --server devops.salas4linux.com.br
+  552  cat /etc/resolv.conf 
+  553  telnet devops.salas4linux.com.br 8140
+  554  ping devops.salas4linux.com.br
+  555  ip a
+  556  ping 8.8.8.8
+  557  vim /etc/resolv.conf 
+  558  ping 8.8.8.8
+  559  ping google.com
+  560  ping devops.salas4linux.com.br
+  561  ping devops
+  562  vim /etc/hosts
+  563  ping devops.salas4linux.com.br
+  564  puppetserver ca list
+  565  puppetserver ca list --all
+  566  puppetserver ca sin --certname docker.salas4linux.com.br
+  567  puppetserver ca sign --certname docker.salas4linux.com.br
+  568  clear
+  569  puppetserver ca list
+  570  puppetserver ca sign --all
+  571  puppetserver ca list
+  572  cd /etc/puppetlabs/code/modules/ 
+  573  ls -ltr
+  574  cd pdk
+  575  ls -ltr
+  576  cd base
+  577  ls -ltr
+  578  clear
+  579  cd manifests/
+  580  ls -ltr
+  581  cd ..
+  582  cd files
+  583  ls -ltr
+  584  vi puppet.conf
+  585  cd ..
+  586  cd manifests/
+  587  ls -ltr
+  588  vi init.pp
+  589  cd ..
+  590  cd files/
+  591  sl -ltr
+  592  cls -ltr
+  593  ls -ltr
+  594  vi puppet.conf
+  595  cat puppet.conf 
+  596  cd ..
+  597  cd manifests/
+  598  ls -ltr
+  599  vi init.pp
+  600  vi site.pp
+  601  puppet agent -t --server devops.salas4linux.com.br
+  602  vi site.pp
+  603  vi init.pp
+  604  ls -ltr
+  605  mv site.pp ../../../environments/production/manifests/
+  606  puppet agent -t --server devops.salas4linux.com.br
+  607  cd ..
+  608  ls -ltr
+  609  cd environments/
+  610  ls -lt
+  611  cd production/
+  612  cd manifests/
+  613  ls -ltr
+  614  vi site.pp 
+  615  cd ..
+  616  cd modules/
+  617  ls -ltr
+  618  pdk new module mera
+  619  ls -ltr
+  620  cd mera
+  621  ls -ltr
+  622  cd manifests/
+  623  ls -lt
+  624  cd ..
+  625  cd file
+  626  cd files/
+  627  ls -ltr
+  628  cp ~/.bashrc bashrc_mera
+  629  ls -ltr
+  630  vi bashrc_mera
+  631  vim bash_logout
+  632  cd ..
+  633  cd manifests/]
+  634  ls -ltr
+  635  cd manifests/
+  636  ls -ltr
+  637  vi init.pp
+  638  vf ..
+  639  cd ..
+  640  cd environments/production/manifests/
+  641  ls -ltr
+  642  hitory
+  643  history
+  644  puppet agent -t --server devops.salas4linux.com.br
+  645  ls -ltr
+  646  vi site.pp
+  647  ls -ltr
+  648  vi site.pp
+  649  puppet agent -t --server devops.salas4linux.com.br
+  650  vi /etc/puppetlabs/code/modules/mera/manifests/init.pp
+  651  puppet agent -t --server devops.salas4linux.com.br
+  652  vi /etc/puppetlabs/code/modules/mera/manifests/init.pp
+  653  puppet agent -t --server devops.salas4linux.com.br
+  654  vi /etc/puppetlabs/code/modules/mera/manifests/init.pp
+  655  puppet agent -t --server devops.salas4linux.com.br
+  656  vi /etc/puppetlabs/code/modules/mera/manifests/init.pp
+  657  puppet agent -t --server devops.salas4linux.com.br
+  658  cd /etc
+  659  ls -ltr
+  660  cd puppetlabs/
+  661  ls -ltr
+  662  cd code
+  663  ls -ltr
+  664  cd ..
+  665  cd puppet
+  666  ls -ltr
+  667  cd ..
+  668  ls -ltr
+  669  cd coe
+  670  cd code
+  671  ls -ltr
+  672  cd environments/
+  673  ls -ltr
+  674  cd production/
+  675  ls -ltr
+  676  cd manifests/
+  677  ls -ltr
+  678  cd ..
+  679  cd modules/
+  680  ls -ltr
+  681  cd ..
+  682  cd data
+  683  ls -ltr
+  684  cd ..
+  685  cd..
+  686  d ..
+  687  cd ..
+  688  cd modules/
+  689  ls -ltr
+  690  pdk new docker module base
+  691  pdk new dockerbase
+  692  pdk docker module base
+  693  puppet pdk docker module base
+  694  history 
+  695  pdk new module docker
+  696  ls -ltr
+  697  cd docker
+  698  ls -ltr
+  699  cd manifests/
+  700  ls -ltr
+  701  vi init.pp
+  702  ls -ltr
+  703  cd ..
+  704  cd mera/
+  705  ls -ltr
+  706  cd manifests/
+  707  ls -ltr
+  708  vi init.pp 
+  709  ls -ltr
+  710  cd ..
+  711  ls -ltr
+  712  cd tasks
+  713  ls -ltr
+  714  cd ...
+  715  ls -ltr
+  716  cd ..
+  717  cd fils
+  718  cd files
+  719  ls -ltr
+  720  vi bashrc_mera
+  721  ls -ltr
+  722  cd ..
+  723  ls -ltr
+  724  cd data
+  725  ls -ltr
+  726  cd ..
+  727  ls -ltr
+  728  cd ..
+  729  l s-ltr
+  730  ls -ltr
+  731  cd arraia_negra/
+  732  ls -ltr
+  733  cd manifests/
+  734  ls -ltr
+  735  vi init.pp
+  736  ls -ltr
+  737  cd ..
+  738  ls -ltr
+  739  cd ..
+  740  ls -ltr
+  741  cd base
+  742  ls -ltr
+  743  cd manifests/
+  744  ls -ltr
+  745  vi init.pp 
+  746  ls -ltr
+  747  vi init.pp
+  748  cd ..
+  749  cd docker/
+  750  ls -ltr
+  751  cd manifests/
+  752  ls -ltr
+  753  cd ..
+  754  cd mera
+  755  ls -ltr
+  756  cd files/
+  757  ls -ltr
+  758  cd ..
+  759  cd arraia_negra/
+  760  ls -ltr
+  761  cd files/
+  762  ls -ltr
+  763  cd ..
+  764  ls -ltr
+  765  cd ..
+  766  ls -ltr
+  767  hisyoty
+  768  history
+  769  ls -ltr
+  770  cd docker
+  771  ls -ltr
+  772  clear
+  773  ls -ltr
+  774  cd manifests/
+  775  ls -ltr
+  776  vi init.pp
+  777  cd ..
+  778  ls -ltr
+  779  cd ..
+  780  ls -ltr
+  781  cd ..
+  782  ls -ltr
+  783  cd environments/
+  784  ls -ltr
+  785  cd production/
+  786  ls -ltr
+  787  cd data/
+  788  ls -ltr
+  789  cd ..
+  790  ls -ltr
+  791  cd manifests/
+  792  ls -ltr
+  793  vi site.pp
+  794  tail -f /var/log/syslog
+  795  history
+  796  puppet agent -t --server devops.salas4linux.com.br
+  797  tail -f /var/log/syslog
+  798  cd ..
+  799  cd .
+  800  cd ..
+  801  cd modules/
+  802  ls -ltr
+  803  cd arraia_negra/
+  804  ls -ltr
+  805  cd manifests/
+  806  ls -ltr
+  807  vi init.pp 
+  808  cd ..
+  809  ls -ltt
+  810  cd ..
+  811  ls -ltr
+  812  cd environments/
+  813  ls -ltr
+  814  cd production/
+  815  ls -ltr
+  816  cd manifests/
+  817  ls -ltr
+  818  vi site.pp 
+  819  cd ..
+  820  tail -f /var/log/syslog
+  821  ls -ltr
+  822  vi /var/log/syslog
+  823  tail -f /var/log/syslog
+  824  ls -ltr
+  825  cd production/
+  826  ls -ltr
+  827  cd manifests/
+  828  ls -ltr
+  829  vi site.pp
+  830  ls -ltr
+  831  tail -f /var/log/syslog
+  832  ls -ltr
+  833  vi site.pp
+  834  tail -f /var/log/syslog
+  835  puppet agent -t
+  836  tail -f /var/log/syslog
+  837  ls -ltr
+  838  vi site.pp
+  839  cd ..
+  840  cd modules/docker/
+  841  ls -ltr
+  842  cd manifests/
+  843  ls -ltr
+  844  cd ..
+  845  ls-ltr
+  846  cd ..
+  847  l s-ltr
+  848  ls -ltr
+  849  cd environments/
+  850  ls -ltr
+  851  cd production/
+  852  ls -ltr
+  853  cd manifests/
+  854  ls -ltr
+  855  cd ..
+  856  cd .
+  857  cd ..
+  858  cd modules/docker/manifests/
+  859  ls -ltr
+  860  vi init.pp
+  861  tail -f /var/log/syslog
+  862  ls -ltr
+  863  vi init.pp
+  864  cd ..
+  865  cd environments/
+  866  ls -ltr
+  867  cd production/
+  868  ls -ltr
+  869  cd manifests/
+  870  ls -ltr
+  871  vi site.pp
+  872  cd ..
+  873  cd modules/docker/manifests/
+  874  ls -ltr
+  875  clear
+  876  cd /etc/ansible/
+  877  ls -ltr
+  878  vi gitlab.yml
+  879  ansible plabook gitlab.yml
+  880  ansible playbook gitlab.yml
+  881  ls -ltr
+  882  ansible-playbook gitlab.yml
+  883  clear
+  884  ansible-playbook gitlab.yml
+  885  vi gitlab.yml
+  886  ansible-playbook gitlab.yml
+  887  vi gitlab2.yml
+  888  ansible-playbook gitlab2.yml
+  889  gitlab --version
+  890  git --version
+  891  cd ..
+  892  cd gitlab/
+  893  ls -ltr
+  894  vi gitlab.rb
+  895  netstat -an |grep 80
+  896  stop nginx
+  897  disable nginx
+  898  systemctl stop nginx
+  899  systemctl disable nginx
+  900  stop puppetserver.service
+  901  clear
+  902  netstat -an |grep 80
+  903  free -g
+  904  netstat -an |grep 80
+  905  systemctl stop nginx
+  906  systemctl disable nginx
+  907  clear
+  908  gitlab-ctl reconfigure
+  909  gitlab-ctl status
+  910  cat .ssh/authorized_keys
+  911  cd 
+  912  cd .ssh/authorized_keys
+  913  cat .ssh/authorized_keys
+  914  clear
+  915  mkdir luke
+  916  cd luke/
+  917  ls -lrr
+  918  git init
+  919  git remote add dark git@192.168.99.10:root/darth-vader.git
+  920  git remote -v
+  921  vi Sith.txt
+  922  git status
+  923  git commit .
+  924  git add Sith.txt
+  925  git commit -m 'Sith"
+  926  git commit -m "Sith"
+  927  git push dark
+  928  git push dark master
+  929  cd ..
+  930  cd /etc/ansible/
+  931  ls -ltr
+  932  vi rundeck.yml
+  933  vi gitlab.yml
+  934  vi rundeck.yml
+  935  git init
+  936  cd /etc/gitlab/
+  937  ls -ltr
+  938  cd ..
+  939  cd gitlab/
+  940  ls -ltr
+  941  cd -
+  942  cd ansible/
+  943  ls -ltr
+  944  git status
+  945  history
+  946  git add *
+  947  git commit "Tudao"
+  948  git commit -m "tudao"
+  949  git status
+  950  git push master
+  951  history
+  952  git push dark master
+  953  clear
+  954  mkdir infraagil_6627
+  955  cp /etc/ansible/ infraagil_6627/
+  956  cd 
+  957  mkdir infraagil_6627
+  958  cp /etc/ansible/ infraagil_6627/
+  959  cp - /etc/ansible/ infraagil_6627/ 
+  960  cp -r /etc/ansible/ infraagil_6627/ 
+  961  cp -r /etc/puppetlabs/ infraagil_6627/
+  962  history > history.txt
